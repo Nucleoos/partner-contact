@@ -21,7 +21,7 @@
 {
     'name': 'Partner first name and last name',
     'summary': "Split first name and last name for non company partners",
-    'version': '8.0.2.0.0',
+    'version': '0.2.1.0',
     'author': "Camptocamp,Odoo Community Association (OCA)",
     'maintainer': 'Camptocamp, Acsone',
     'category': 'Extra Tools',
@@ -29,12 +29,12 @@
     'depends': ['base'],
     'data': [
         'views/res_partner.xml',
-        'views/res_user.xml',
-        'data/res_partner.yml',
+ #       'views/res_user.xml',
+ #       'data/res_partner.yml',
     ],
     'demo': [],
     'test': [],
     'auto_install': False,
-    'installable': False,
+    'installable': True,
     'images': []
 }
